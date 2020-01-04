@@ -5,6 +5,8 @@ import { Provider } from "react-redux";
 import makeStore from "../redux/store";
 import withRedux from "next-redux-wrapper";
 import Cookies from "../utils/cookies";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "../components/Header";
 
 let initialRender = false;
 
@@ -53,7 +55,7 @@ class MyApp extends App {
           <link rel="shortcut icon" href="/static/images/favicon.ico" />
           <title>Coba PWA</title>
         </Head>
-        {/* <Header /> */}
+        <Header />
         <Component {...pageProps} />
       </Provider>
     );
