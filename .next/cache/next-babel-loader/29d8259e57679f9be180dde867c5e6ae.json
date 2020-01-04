@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const SET_DATA = \"AUTH/SET_DATA\";","map":{"version":3,"sources":["/home/mvryan/Documents/PWA/next-pwa/redux/auth/types.js"],"names":["SET_DATA"],"mappings":"AAAA,OAAO,MAAMA,QAAQ,GAAG,eAAjB","sourcesContent":["export const SET_DATA = \"AUTH/SET_DATA\";\n"]},"metadata":{},"sourceType":"module"}
